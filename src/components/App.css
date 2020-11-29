@@ -1,0 +1,17 @@
+.app {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;    
+
+    background-image: url('../assets/images/campo.jpg');
+    background-size: 100%;
+}
+
+.app img {
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    z-index: -1;
+}
